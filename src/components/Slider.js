@@ -86,7 +86,7 @@ const Slider = () => {
               src={review.image}
               alt={review.name}
             />
-            <h3 id={`person-${index}-name`}>{review.name}</h3>
+            <h3 id={`person-0`}>{review.name}</h3>
             <h4 id={`person-${index}-title`}>{review.title}</h4>
             <p id={`person-${index}-quote`}>{review.quote}</p>
           </div>
