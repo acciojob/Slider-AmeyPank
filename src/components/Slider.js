@@ -64,7 +64,7 @@ const Slider=()=>{
     },[])
 
     return <div className='review'>
-        <h1 id="person-0">Reviews</h1>
+        <h1 id="review-heading">Reviews</h1>
         <div id="review-container">
             <img id={generateImgId()} src={person.image} width="200px"/>
             <p id={generateId()}>Name: {person.name}</p>
