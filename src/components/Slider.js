@@ -79,6 +79,7 @@ const Slider = () => {
           <div
             key={review.id}
             className={index === currentIndex ? 'slide active' : 'slide inactive'}
+            data-testid={`slide-${index}`}
           >
             <img
               id={`person-${index}-image`}
